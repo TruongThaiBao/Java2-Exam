@@ -13,6 +13,10 @@ public class CD {
     }
 
     public CD(int maCD, String tuaCD, int soBH, float giaThanh) {
+//        this.maCD = maCD;
+        if (maCD <= 0){
+            throw new IllegalArgumentException("Mã CD không hợp lệ");
+        }
         this.maCD = maCD;
         this.tuaCD = tuaCD;
         this.soBH = soBH;

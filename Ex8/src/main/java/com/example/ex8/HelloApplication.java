@@ -12,7 +12,7 @@ public class HelloApplication{
         CDList cdList = new CDList(5); // Khởi tạo CDList với kích thước 5
 
         // Thêm các CD vào danh sách
-        cdList.addCD(new CD(1, "CD 3", 10, 10.5f));
+        cdList.addCD(new CD(-1, "CD 3", 10, 10.5f));
         cdList.addCD(new CD(2, "CD 5", 8, 20.0f));
         cdList.addCD(new CD(3, "CD 1", 12, 18.2f));
         cdList.addCD(new CD(4, "CD 4", 9, 11.8f));
