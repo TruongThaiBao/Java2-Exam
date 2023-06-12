@@ -91,4 +91,13 @@ public class Management {
         Collections.sort(employees);
         Collections.sort(customers);
     }
+
+    //Xuất ds dạng bảng
+    public void printAllPersonsTablle(){
+        if (students.isEmpty() && employees.isEmpty() && customers.isEmpty()) {
+            System.out.println("Danh sách rỗng");
+            return;
+        }
+
+    }
 }
